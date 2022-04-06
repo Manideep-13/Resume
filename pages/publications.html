@@ -1,0 +1,32 @@
+---
+layout: page
+permalink: /publications.html
+title: Projects
+header-img: 
+last-updated: 2020-10-30 5:55 PM
+---
+{% assign theme = site.data.themes[site.ui_theme] %}
+<div class="blogcard  card-1 mb-4" style="width: 100%;">
+  <div class="card-body">
+    <h5 class="card-title text-center" style="font-size:{{ theme.post-title-size }};font-weight:{{ theme.post-font-weight }};">{{ page.title }}</h5>
+  </div>
+  <div class="tab-pane overflow-auto" id="{{section.id}}" role="tabpanel" aria-labelledby="{{section.id}}-tab">
+      {% for projects in site.data.projects %}
+      <div class="media mt-2">
+        <div class="media-body">
+          <h5 class="mt-0">{{ projects.name }}</h5>
+          {{ projects.description }}
+          {% if projects.tech %}
+            <h6><mark><u>Technologies</u></mark></h6>
+            {% for tech in projects.tech %}
+            <span class="badge badge-secondary mr-1" style="background-color:{{ theme.projects-color }};">{{ tech }}</span>
+            {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>        
+  </div>
+</div>
+
+

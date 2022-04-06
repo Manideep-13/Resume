@@ -1,0 +1,20 @@
+- name: Online Stationary Ordering System
+  id: project1
+  description: >
+     Developed a online stationary ordering system to be used by stationary stores in Universities and Colleges to save student's time during a fast paced
+     college day. This application can be further extended to support other stores. 
+
+
+- name: Apparel Store Modelling Application
+  id: project2
+  description: >
+    Developed an apparel modelling application with OLTP database, migrated to Oracle DB hosted in RDS instance of AWS by making use
+    of EOQ forecasting
+
+
+- name: Voice Controlled Car
+  id: project3
+  description: >
+    To enable people to search objects using voice recognition and touch control where existence of human life is dangerous.   
+  tech: 
+    - Tools and Technologies: Arduino nano, Motor driver ,Bluetooth module, Arduino Software (IDE)

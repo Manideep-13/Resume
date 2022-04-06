@@ -1,0 +1,18 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": " ",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manideep-13/resume.git"
+  },
+  "keywords": [
+    "jekyll"
+  ],
+  "author": "Sai Manideep Chittiprolu",
+  "license": "",
+  "homepage": "https://github.com/Manideep-13/resume#readme"
+}

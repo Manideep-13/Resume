@@ -1,0 +1,123 @@
+title: Sai Manideep Chittiprolu
+email: 
+description: resume
+baseurl: ""                                  # the subpath of your site, e.g. /blog
+url:  ""         # the base hostname & protocol for your site, e.g. http://example.com
+
+# =======================================#
+# -----------SITE SETTINGS---------------#
+#========================================#: 
+author: Sai Manideep Chittiprolu
+profile_image: https://Manideep-13.github.io//assets/img/avatar/2x/avatar.jpeg #/assets/img/avatar/avatar.jpeg 
+occupation: 
+snippet:
+twitter: 00saimanideep
+github: Manideep-13
+linkedin: Sai Manideep Chittiprolu
+website: https://sai-resume.org
+codepen: 
+medium: 
+email: saimanideep83@gmail.com
+keybase: SAIMANIDEEP13
+pgp: 
+ctftime: 
+phonenumber: 
+
+#========================================#
+# --------- UI THEMES -------------------#
+#========================================#
+ui_theme: abyss                                 # Create your own theme by setting options in _data/themes.yml
+
+
+# =======================================#
+# -----------BLOG SETTINGS---------------#
+#========================================#
+
+tags:  post jekyll styleguide ipsum
+twitter-widget: false # true,false                  # Used to show your twitter timeline on blog home page
+
+comments: false                                     # Used to enable comments on blog posts
+gitalk_client_id:             
+gitalk_client_secret:    
+gitalk_repo:
+gitalk_owner: 
+gitalk_admin: 
+gitalk_distraction_mode: false
+
+# =======================================#
+# -----------THEME SETTINGS--------------#
+#========================================#
+
+nav-color: "#00334e"                                 # options: light, dark, transparent, primary, custom | Change the color of the navbar
+footer-color: "#00334e"
+color-scheme: "#00334e"                              # options: demo | changes color scheme based on preset values 
+card-color: "#00334e"                                # Used on cards like the home highlights section
+nav-dIcon: "fas fa-caret-down"                       # Change the navbar dropdown (for mobile or small screen sizes) to any fontawesome icon. for a list of icons visit https://fontawesome.com/ 
+animate: true                                        # false or true, uses animate.css to animate certain functions
+
+# =======================================#
+# -----------HOME PAGE  SETTINGS --------#
+#========================================#
+home_option: education                               # options: education, skills, timeline
+
+# =======================================#          # These  settings are for demo purposes only, things like 
+# -----------HELP SETTINGS---------------#          #     popup toasts and tooltips designed to help new 
+#========================================#          #     developers as they look into using this theme      
+help_tips: false                                    # options: true, false  | use false to disable these for production mode
+
+
+# =======================================#
+# -----------BUILD SETTINGS--------------#
+#========================================#
+theme: 
+markdown: kramdown
+
+kramdown:
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+  - jekyll-environment-variables
+sass:
+  sass_dir: _sass
+  style: compressed
+
+
+include:
+  - _posts
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# =======================================#
+# -----JEKYLL SCHOLAR SETTINGS-----------#
+#========================================#
+# =======================================#
+# ------------CDN SETTINGS---------------#
+#-------------Used to generate icons-----#
+#========================================#
+font_awesome_id: 32a2b2a489                       # Register for free at https://fontawesome.com/ to get your id
+
+
+# =======================================#        # For more information about these settings, visit https://htmlhead.dev #
+# ------------META TAG SETTINGS----------#
+#========================================#
+google-site-verification:                         #<meta name="google-site-verification" content="verification_token"><!-- Google Search Console -->
+yandex-verification:                              #<meta name="yandex-verification" content="verification_token"><!-- Yandex Webmasters -->
+msvalidate:                                       # meta name="msvalidate.01" content="verification_token"><!-- Bing Webmaster Center -->
+alexaVerifyID:                                    # <meta name="alexaVerifyID" content="verification_token"><!-- Alexa Console -->
+pinterestdomain_verify:                           #<meta name="p:domain_verify" content="code_from_pinterest"><!-- Pinterest Console-->
+norton-safeweb:                                   # <meta name="norton-safeweb-site-verification" content="norton_code"><!-- Norton Safe Web -->
+detectphone: yes                                  # yes or no. Disable automatic detection and formatting of possible phone numbers 
+x-dns-prefetch-control: on                        # on or off. Completely opt out of DNS prefetching by setting to "off"
+fbappid:                                          # Facebook OpenGraph 

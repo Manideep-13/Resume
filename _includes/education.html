@@ -1,0 +1,26 @@
+ {% assign theme = site.data.themes[site.ui_theme] %}
+  <h5 class="card-title" style="font-family:{{ theme.education-title-font}};font-size:{{ theme.education-title-size }};color:{{theme.education-font-color}};">Education</h5>
+  <ul class="list-unstyled">
+  {% for entry in site.data.education %}
+    <li class="media">
+      <img src="{{ entry.Icon }}" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">University of North Carolina at Greensboro</h5>
+        <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i>MS in Computer Science</i></p>
+        {% if entry.Degree %}
+          <p>{{ entry.Degree }}</p>
+        {% endif %}
+      </div>
+    </li>
+    <li class="media">
+      <img src="{{ entry.Icon1 }}" class="mr-3" alt="...">
+      <div class="media-body">
+        <h5 style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-entry-size }};color:{{theme.education-font-color}};">R.V.R & J.C. College Of Engineering</h5>
+        <p style="font-family:{{ theme.education-entry-font}};font-size:{{ theme.education-section-size }};color:{{theme.education-font-color}};"><i> B.tech in Electronics and Communication Engineering </i></p>
+        {% if entry.Degree %}
+          <p>{{ entry.Degree }}</p>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>

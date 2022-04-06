@@ -1,0 +1,14 @@
+nav_list_title: Navigation List
+links:
+
+- title: About
+  url: about.html
+
+- title: Projects
+  url: publications.html
+
+- title: Resume
+  url: https://Manideep-13.github.io//assets/pdf/Resume_BW.pdf
+
+- title: Contact
+  url: contact.html

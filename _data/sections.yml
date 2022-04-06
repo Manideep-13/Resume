@@ -1,0 +1,19 @@
+- name: Work Experience
+  id: work
+  url: work.html
+  first: true
+  
+- name: Certifications
+  id: courses
+  url: courses.html
+  first: false
+
+- name: Achievements
+  id: achievements
+  url: achievements.html
+  first: false
+
+
+
+
+
