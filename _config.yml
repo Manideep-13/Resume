@@ -2,7 +2,7 @@ title: Sai Manideep Chittiprolu
 email: 
 description: resume
 baseurl: ""                                  # the subpath of your site, e.g. /blog
-url:  ""        # the base hostname & protocol for your site, e.g. http://example.com
+url:  "http://saimanideep.com"        # the base hostname & protocol for your site, e.g. http://example.com
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
@@ -13,7 +13,7 @@ occupation:
 snippet:
 twitter: 00saimanideep
 github: Manideep-13
-linkedin: https://www.linkedin.com/in/saimanideep13/
+linkedin: saimanideep13
 website: https://sai-resume.org
 codepen: 
 medium: 
