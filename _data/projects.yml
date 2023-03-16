@@ -1,19 +1,44 @@
-- name: Online Stationary Ordering System
+- name: Personalized Machine Learning Model for Sleep Detection
   id: project1
+  description: >
+      This is a research project that has the goal of developing machine learning models and algorithms using advanced computational techniques to detect the driver drowsiness
+      early and guide the driver to safety. As a part of this research project, I already studied millions of data points that are generated from large RGB video sequences and performed template
+      matching to detect the drivers' facial region then I applied fast Fourier transform to extract feature vectors and construct a feature space that allows machine learning classifiers to be trained
+      to detect three phases of drowsiness (mild, moderate, and severe), now I'm studying the artificial neural networks and convolutional neural networks to develop enhanced modes.
+  tech: 
+    - Tools and Technologies: Python, Pandas, Matplotlib, sklearn, template matching using TM_SQDIFF, Random Forest, CNN, ANN
+
+- name: Comparing the performance of Machine Learning algorithm on Heart Disease Prediction
+  id: project2
+  description: >
+      Analyzed heart disease data using the machine learning techniques that include Support Vector Machine, Naïve Bayes, and Decision Tree, and developed 
+      several learning models to predict different symptoms of heart disease.
+  tech: 
+    - Tools and Technologies: Python, Pandas, Matplotlib, sklearn, RandomForest, ANN, SVM, Decision Tree
+
+- name: Customer Satisfaction Analysis using Qualtrics and Tableau
+  id: project3
+  description: >
+      To evaluate customer feedback data to find areas for improvement in the customer experience journey, and to develop a dashboard using Tableau to track customer satisfaction levels.
+  tech: 
+    - Tools and Technologies: Python, Tableau, SQL, MS Excel.
+
+- name: Online Stationary Ordering System
+  id: project4
   description: >
       Developed a online stationary ordering system to be used by stationary stores in Universities and Colleges to save student's time during a fast paced
       college day. This application can be further extended to support other stores. 
 
 
 - name: Apparel Store Modelling Application
-  id: project2
+  id: project5
   description: >
     Developed an apparel modelling application with OLTP database, migrated to Oracle DB hosted in RDS instance of AWS by making use
     of EOQ forecasting
 
 
 - name: Voice Controlled Car
-  id: project3
+  id: project6
   description: >
     To enable people to search objects using voice recognition and touch control where existence of human life is dangerous.   
   tech: 
