@@ -1,11 +1,11 @@
 nav_list_title: Navigation List
 links:
 
-- title: About
-  url: about.html
-
 - title: Projects
   url: publications.html
+
+- title: About
+  url: about.html
 
 - title: Resume
   url: ./assets/pdf/chittiprolu-resume.pdf
